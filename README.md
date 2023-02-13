@@ -62,7 +62,7 @@ loop?: boolean
 | children | `undefined` | `React.ReactElement[]` | `YES` | an array of the Elements that you want to use them as each slides |
 
 
-You can also manage control the carousel using ref value and here is the type of the reference value: 
+You can also manage controlling the carousel using ref value and here is the type of the reference value: 
 
 ```tsx
 type FadeCaroselInstance = {
