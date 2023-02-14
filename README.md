@@ -1,6 +1,6 @@
-# React Native Accordion Wrapper
+# React Native Fade Carousel Wrapper
 
- A Fade Carousel for react native written in [TypeScript](https://www.typescriptlang.org/) in order to handle the accordion behavior for any react native components.
+ A Fade Carousel for react native written in [TypeScript](https://www.typescriptlang.org/) in order to handle the Fade Carousel behavior for any react native components.
 
 ![](https://github.com/aliunco/react-native-fadecarousel/blob/main/demo.gif?raw=true)
 
@@ -41,14 +41,6 @@ const FadeCarouselScreen = () => {
 ```
 
 Here is the properties and the descriptions of them: 
-
-loop?: boolean
-  autoPlay: { delay: number, enable: true } | { enable: false };
-  leaveBearing?: Bearing;
-  entranceBearing?: Bearing;
-  style?: StyleProp<ViewStyle>;
-  fadeAnimationDuration?: number;
-  children: React.ReactElement[];
 
 
 | Props Name | Default | Type | isRequired | Description |
